@@ -1,0 +1,44 @@
+#root{
+    --gradient : -webkit-linear-gradient(0, rgb(155, 134, 115) , rgb(223, 119, 22));
+    --lightFont: rgb(226, 211, 211);
+}
+
+button{
+    color: var(--lightFont);
+}
+
+.container{
+    position: fixed;
+    
+    
+    border: 1px solid rgb(192, 147, 106);
+    padding: 10px;
+    border-radius: 20px;
+    left: 10px;
+    top: 75px;
+    background-color:rgb(247, 230, 214);
+    z-index: 1000;
+   
+}
+input,textarea,select,button{
+    width: 100%;
+}
+
+label{
+    display: block;
+    font-weight: 600;    
+}
+button{
+    margin-top: 15px;
+    background: var(--gradient);
+    height: 30px;
+    border-radius: 15px;
+}
+
+.icon{
+    color: var(--gradient);
+
+}
+.icon:hover{
+    cursor: pointer;
+}
